@@ -3,7 +3,7 @@
 client_id = "8f950c029b9bb2e1bf9dc8cbb124d74c"
 name = "customer-meta"
 handle = "customer-meta-2"
-application_url = "https://localhost:3458"
+application_url = "https://d015-91-214-125-21.ngrok-free.app"
 embedded = true
 
 [build]
@@ -23,13 +23,13 @@ api_version = "2025-04"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products,read_customers,write_customers,read_metafields,write_metafields"
 
 [auth]
 redirect_urls = [
-  "https://localhost:3458/auth/callback",
-  "https://localhost:3458/auth/shopify/callback",
-  "https://localhost:3458/api/auth/callback"
+  "https://d015-91-214-125-21.ngrok-free.app/auth/callback",
+  "https://d015-91-214-125-21.ngrok-free.app/auth/shopify/callback",
+  "https://d015-91-214-125-21.ngrok-free.app/api/auth/callback"
 ]
 
 [pos]
